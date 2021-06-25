@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vehicle-form.component.css']
 })
 export class VehicleFormComponent implements OnInit {
-  makes: any[];
-  models: any[];
-  features: any[];
+  makes;
+  models;
+  features;
   vehicle: any = {};
 
   constructor(
